@@ -1,5 +1,7 @@
 <img src="http://raw.github.com/OmarMuscatello/RCompressor/master/rcompressor.png" height="70" alt="RCompressor">
 
+# RCompressor
+
 A compressor for Razor Views.
 
 **Help me!** Improve this translation with a pull request.
