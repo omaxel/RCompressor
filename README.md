@@ -4,7 +4,7 @@ A compressor for Razor Views.
 
 **Help me!** Improve this translation with a pull request.
 
-#### [Download latest version](https://github.com/OmarMuscatello/RCompressor/archive/v1.0.zip) 
+### [Download latest version](https://github.com/OmarMuscatello/RCompressor/releases/download/v1.0/RCompressor-v1.0.zip) 
 or see [previous versions](https://github.com/OmarMuscatello/RCompressor/releases).
 
 ##### Summary
@@ -77,7 +77,7 @@ Using **RCompressor** you can strip out the code from spaces, empty lines and co
 Processing the previous .cshtml files with **RCompressor** the response size becomes 604B, which is smaller than ~8%. Think how many bytes can you save in bigger view files.
 
 ## How to use
-- [Download]() the latest version of **RCompressor** and launch it;
+- [Download](https://github.com/OmarMuscatello/RCompressor/releases/download/v1.0/RCompressor-v1.0.zip) the latest version of **RCompressor** and launch it (no installation required);
 - paste the directory/file path in the first field;
 - check the *Scan subfolders* option if required;
 - press the *Compress* button.
