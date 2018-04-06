@@ -84,7 +84,7 @@ Processing the previous .cshtml files with **RCompressor** the response size bec
 - check the *Scan subfolders* option if required;
 - press the *Compress* button.
 
-#### Command line usage
+### Command line usage
 You can use **RCompressor** using the command line by passing the paths as parameters.
 
 Add the `-subfolders` option to scan subfolders.

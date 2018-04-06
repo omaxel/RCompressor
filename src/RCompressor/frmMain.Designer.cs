@@ -58,7 +58,8 @@
             // 
             // pnlInput
             // 
-            this.pnlInput.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pnlInput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlInput.BackColor = System.Drawing.Color.Silver;
             this.pnlInput.Controls.Add(this.txtInput);
@@ -80,7 +81,7 @@
             // 
             // btnCompress
             // 
-            this.btnCompress.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnCompress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCompress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(61)))), ((int)(((byte)(124)))));
             this.btnCompress.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCompress.Enabled = false;
@@ -118,6 +119,7 @@
             // 
             // lblProgress
             // 
+            this.lblProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblProgress.AutoSize = true;
             this.lblProgress.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblProgress.Location = new System.Drawing.Point(12, 345);
@@ -128,7 +130,7 @@
             // 
             // pnlStatus
             // 
-            this.pnlStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pnlStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlStatus.BackColor = System.Drawing.Color.Silver;
             this.pnlStatus.Controls.Add(this.txtStatus);
