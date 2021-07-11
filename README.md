@@ -15,7 +15,7 @@ or see [previous versions](https://github.com/OmarMuscatello/RCompressor/release
   - [Command line usage](#command-line-usage)
 
 ## Introduction
-Have you ever thought that the generated HTML from a .cshtml fileis not optimized?
+Have you ever thought that the generated HTML from a `.cshtml` file is not optimized?
 
 Take a look at the below code which is the content of a simple `_Layout.cshtml` file:
 
@@ -72,11 +72,11 @@ When you visit the page through the browser, the generated HTML is:
 
 How many spaces and empty new lines!
 
-The response size is 650B. Of course this is not a problem if the page is very small, but think about larger pages whose size is near 3MB.
+The response size is 650B. This is not a problem if the page is small, but think about bigger pages.
 
-Using **RCompressor** you can strip out the code from spaces, empty lines and comments.
+Using **RCompressor**, you can strip out the code from spaces, empty lines, and comments.
 
-Processing the previous .cshtml files with **RCompressor** the response size becomes 604B, which is smaller than ~8%. Think how many bytes can you save in bigger view files.
+Processing the previous `.cshtml` files with **RCompressor** the response size becomes 604B, which is ~8% smaller. You can save a lot of bytes in bigger files.
 
 ## How to use
 - [Download](https://github.com/OmarMuscatello/RCompressor/releases/download/v1.0/RCompressor-v1.0.zip) the latest version of **RCompressor** and launch it (no installation required);
@@ -94,4 +94,4 @@ Add the `-subfolders` option to scan subfolders.
 > RCompressor.exe -subfolders "C:\MyDir" "C:\MyFile.cshtml"
 ```
 
-**RCompressor** will compress all .cshtml files inside `C:\MyDir` and subfolders. It will also compress the `C:\MyFile.cshtml` file.
+**RCompressor** will compress all `.cshtml` files inside `C:\MyDir` and subfolders. It will also compress the `C:\MyFile.cshtml` file.
